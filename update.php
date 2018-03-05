@@ -103,6 +103,13 @@ if($_GET['id']) {
                 <td><input type="text" name="date_of_birth" placeholder="Date of birth" value="<?php echo $data['date_of_birth'] ?>" /></td>
 
             </tr>
+            <tr>
+
+                <th>Active</th>
+
+                <td><input type="text" name="active" placeholder="active" value="<?php echo $data['active'] ?>" /></td>
+
+            </tr>
 
             <tr>
 
